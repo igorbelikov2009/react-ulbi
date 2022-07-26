@@ -13,7 +13,7 @@ const PostForm = ({ create }) => {
     };
 
     create(newPost);
-    console.log(newPost);
+    // console.log(newPost);
     setPost({ title: "", body: "" });
   };
 
